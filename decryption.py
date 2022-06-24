@@ -3,9 +3,7 @@ g = open( "decrypted_text", "w")
 key = input("key: ")
 text = f.read()
 key = key* (len(text)//len(key)+1)
-#sir_b= [0 for i in range(len(text))] 
 ct=0
-#key = list(key)
 cheie_binar = ""
 
 for i in key:
